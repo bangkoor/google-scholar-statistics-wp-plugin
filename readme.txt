@@ -1,4 +1,4 @@
-=== APH Prism Syntax Highlighter ===
+=== Google Scholar Statistics ===
 Contributors: Arif Kurnia Wijayanto
 Tags: sinta, scopus, google scholar
 Requires at least: 3.5
@@ -38,56 +38,6 @@ Save! And that's it!
 
 == Screenshots ==
 
-1. Admin Settings
-2. Code Editor
-3. Edit code on TinyMCE Editor
-4. Quick Tags in the Text mode of TinyMCE editor
-5. Quick Tags in the admin edit comments page
-6. Guttenberg Block
 
 == Changelog ==
 
-= 1.4.1 (Juli 12, 2020) = 
-* Bug fixes
-* Add rel="language-name" to the <code> output 
-* Add Plugin's Custom CSS field in the Block Editor
-
-= 1.4 (April 29, 2020) = 
-* Bug fixes
-* Add support to Wordpress Guttenberg Block
-* Update prism to the lastest version v.1.20 (29 April 2020)
-
-= 1.3.1 (February 21, 2019) = 
-* Bug fixes
-
-= 1.3 (January 20, 2019) = 
-* Add support to classic editor on Guttenberg
-* Update PrismJs to the lastest version (v.1.15), including: core, themes, and components
-
-= 1.2.2 (April 22, 2017) = 
-Bug Fixed: Light Plain and Dark Plain is not responsive
-
-= 1.2.1 (April 22, 2017) = 
-Minor bug fixed
-
-= 1.2 (March 18, 2017) = 
-
-* Add language: dark plain and light plain
-* Move compiled javascript and css files to wp-content/uploads/aphph
-* Update prism core
-
-= 1.1.1 (September 26, 2016) = 
-
-* Fix sample responsive CSS Code
-* Set default container max-height to 480px
-
-= 1.1 (September 25, 2016) = 
-
-* Ability to set max-height of container. Useful when displaying long code
-* Ability to add custom CSS. Useful for responsive design
-* Now container element has default class: aphph-container
-* Some minor improvements
-
-= 1.0 =
-
-Initial Public Release
