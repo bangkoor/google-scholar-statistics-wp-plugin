@@ -6,7 +6,7 @@ function tampil_gsc ($atts)
 	$currentYear = date("Y");
 	$id = $atts['id'];
 	$style = $atts['style'];
-	$url = "https://code.akwijayanto.com/googlescholar-api/googlescholar.php?user=".$id;
+	$url = get_site_url() . "/wp-content/plugins/gsc-stat/gsc.php?user=".$id;
 	
  
 	// Get the contents of the JSON file 
