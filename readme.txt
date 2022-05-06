@@ -1,9 +1,9 @@
 === GSC Scholar Statistics ===
 Contributors: Arif Kurnia Wijayanto
-Tags: sinta, scopus, google scholar
+Tags: google scholar, citation, article
 Requires at least: 3.5
-Tested up to: 5.6
-Stable tag: 1.1.1
+Tested up to: 5.9.3
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,8 @@ Shortcode format: [gsc id="Your-GSC-ID" style="Choose-Style"]
 Example: [gsc id="xfQppT0AAAAJ" style"blueSteelCols"]
 
 Save! And that's it!
+
+Available style: blueSteelCols and greenTable
 
 == Screenshots ==
 
