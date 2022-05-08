@@ -1,13 +1,13 @@
 <?php 
+
 //menampilkan data statistik
 function tampil_gsc ($atts)
 {
 	$css = plugin_dir_url(__FILE__) . 'css/styled-table.css';
 	$currentYear = date("Y");
-	$id = $atts['id'];
-	$style = $atts['style'];
+	$id = sanitize_user($atts['id']);
+	$style = sanitize_user($atts['style']);
 	$url = plugin_dir_url(__FILE__) . 'gsc.php?user='.$id;
-	echo $url;
 	
 	// Get the contents of the JSON file 
 	$strJsonFileContents = wp_remote_retrieve_body(wp_remote_get($url));
@@ -52,4 +52,5 @@ function tampil_gsc ($atts)
 	
 <?php
     return ob_get_clean();
-} ?>
+}
+?>

@@ -2,14 +2,15 @@
 
 header('Content-Type: application/json; charset=utf-8');
 
-if(!isset($_GET["user"]))
+if(!isset($_GET['user']))
 	exit -1;
 
 # create and load the HTML
 include('simple_html_dom.php');
-//$userID = sanitize_text_field($_GET['user']);
+$userID = filter_var($_GET['user'], FILTER_SANITIZE_STRING);
+//$userID = sanitize_user($_GET['user']);
 $html = new simple_html_dom();
-$html->load_file("http://scholar.google.se/citations?user=" . $_GET['user']);
+$html->load_file("http://scholar.google.se/citations?user=" . $userID);
 
 
 print "{\n \"total_citations\": " . $html->find("#gsc_rsb_st td.gsc_rsb_std", 0)->plaintext . ",\n";
